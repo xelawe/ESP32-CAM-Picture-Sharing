@@ -3,11 +3,11 @@ ESP32-CAM remote image access via FTP. Take pictures with ESP32 and upload it vi
 
 Source: https://github.com/ldab/ESP32-CAM-Picture-Sharing
 
-[![GitHub version](https://img.shields.io/github/release/ldab/ESP32-CAM-Picture-Sharing.svg)](https://github.com/ldab/ESP32-CAM-Picture-Sharing/releases/latest)
-[![Build Status](https://travis-ci.org/ldab/ESP32-CAM-Picture-Sharing.svg?branch=master)](https://travis-ci.org/ldab/ESP32-CAM-Picture-Sharing)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ldab/ESP32-CAM-Picture-Sharing/blob/master/LICENSE)
+[![GitHub version](https://img.shields.io/github/release/xelawe/ESP32-CAM-Picture-Sharing.svg)](https://github.com/xelawe/ESP32-CAM-Picture-Sharing/releases/latest)
+[![Build Status](https://travis-ci.org/xelawe/ESP32-CAM-Picture-Sharing.svg?branch=master)](https://travis-ci.org/xelawe/ESP32-CAM-Picture-Sharing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/xelawe/ESP32-CAM-Picture-Sharing/blob/master/LICENSE)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/ldab/ESP32-CAM-Picture-Sharing.svg?style=social)](https://github.com/ldab/ESP32-CAM-Picture-Sharing)
+[![GitHub last commit](https://img.shields.io/github/last-commit/xelawe/ESP32-CAM-Picture-Sharing.svg?style=social)](https://github.com/xelawe/ESP32-CAM-Picture-Sharing)
 
 [![ESP32-CAM](./pics/esp32cam.jpg)](https://www.aliexpress.com/item/32963016501.html?spm=a2g0s.9042311.0.0.4acb4c4dqzOcdx)
 
