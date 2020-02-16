@@ -55,35 +55,6 @@ Source: https://github.com/ldab/ESP32-CAM-Picture-Sharing
 * This board has an [AMS1117](./extras/ds1117.pdf) voltage regulator which "sleep" current is around `6mA`, this is quite a lot if you plan to have your board running on batteries.
 * **TODO!** find an alternative with the same package.
 
-## Free Website Hosting
-
-* There're plenty of tutorials and examples on how to run the video streming or pictures on your local network while the ESP32 acts as a webserver.
-
-* The idea behind this project is to `upload` the picture via FTP making it available on an URL something like: `www.mysite.com/my_picture.jpg`
-
-* This way you don't need to overload the ESP32, your network remains secure, not open to the world, no port forwarding.
-
-* For this example I uploaded the GitHub Octocat to my [000Webhost](https://www.000webhost.com/) hosted webiste, the file is avalable under: `https://my_user.000webhostapp.com/gallery_gen/XxXxXxXx.jpg`
-
-```
-  ftp.OpenConnection();
-
-  // Create the new file and send the image
-  ftp.InitFile("Type I");
-  ftp.ChangeWorkDir("/public_html/zyro/gallery_gen/");
-  ftp.NewFile("octocat.jpg");
-  ftp.WriteData( octocat_pic, sizeof(octocat_pic) );
-  ftp.CloseFile();
-
-  ftp.CloseConnection();
-```
-
-### FTP information
-
-* Your FTP details can be found on the 000webhost control panel once logged on click your site then details.
-
-![000webhost](https://www.000webhost.com/forum/uploads/default/original/2X/0/026a3c78b11ca4864452140237eab946a3f2c267.png)
-
 ## Credits
 
 GitHub Shields and Badges created with [Shields.io](https://github.com/badges/shields/)
