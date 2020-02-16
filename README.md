@@ -9,7 +9,7 @@ Source: https://github.com/ldab/ESP32-CAM-Picture-Sharing
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/xelawe/ESP32-CAM-Picture-Sharing.svg?style=social)](https://github.com/xelawe/ESP32-CAM-Picture-Sharing)
 
-[![ESP32-CAM](./pics/esp32cam.jpg)](https://www.aliexpress.com/item/32963016501.html?spm=a2g0s.9042311.0.0.4acb4c4dqzOcdx)
+[![ESP32-CAM](./pics/esp32cam.jpg)]
 
 ## Sumary
 
@@ -83,27 +83,6 @@ Source: https://github.com/ldab/ESP32-CAM-Picture-Sharing
 * Your FTP details can be found on the 000webhost control panel once logged on click your site then details.
 
 ![000webhost](https://www.000webhost.com/forum/uploads/default/original/2X/0/026a3c78b11ca4864452140237eab946a3f2c267.png)
-
-## Blynk App
-
-* This is a Bonus, as you may want to add it to your altomation project, you can use `Blynk Image Gallery Widget` and just supply it with the URL used by ESP32 from the hardware.
-
-```
-// Take a picture and add a time tag to it;
-take_picture( "my_picture_201906170521" );
-upload_FTPpicture();
-
-// And by changing it on Blynk from the hardware will reflect on the App
-Blynk.setProperty(VX, "url", 1, "https://mywebsite/something/my_picture_201906170521.jpg");
-```
-
-<img src="./pics/screenshot_blynk.jpg" width="30%"> <img src="./pics/QR.jpg" width="30%"> 
-
-## Node-RED
-
-* Another alternative is to send the image via MQTT(???) using cloud brokers as [CloudMQTT](https://www.cloudmqtt.com/) and have the Node-RED subscribed to that topic and saving it to the database and serving the file locally.
-
-* This is a topic for another project, but can be seen briefly [here](https://github.com/ldab/Node-RED-Energy-Harvesting-dashboard)
 
 ## Credits
 
